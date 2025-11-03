@@ -1,0 +1,5 @@
+{
+  "name": "Gestor de Solicitudes Clínicas",
+  "description": "Una aplicación web para buscar, filtrar y gestionar datos de solicitudes clínicas de manera eficiente para el personal de salud.",
+  "requestFramePermissions": []
+}

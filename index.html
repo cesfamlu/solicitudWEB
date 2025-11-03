@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestor de Solicitudes Clínicas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#1E40AF', // Azul más moderno y accesible
+                light: '#3B82F6',
+                dark: '#1D4ED8',
+              },
+              secondary: '#0EA5E9',
+              accent: '#F59E0B',
+              background: '#F8FAFC', // Un fondo muy sutil, casi blanco (slate-50)
+              surface: '#FFFFFF',
+              textPrimary: '#1F2937', // Gris oscuro para texto (gray-800)
+              textSecondary: '#6B7280', // Gris medio para texto secundario (gray-500)
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
